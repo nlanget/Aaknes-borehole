@@ -1,0 +1,15 @@
+channels:
+  - defaults
+dependencies:
+  - python=3.9.7
+  - numpy=1.21.6
+  - pip=23.1.2
+  - bokeh::bokeh=2.4.3
+  - pip:
+    - nbserverproxy
+    - jupyter-server-proxy
+    - jupyter-panel-proxy
+    - pandas
+    - matplotlib
+    - hvplot
+    - obspy    
