@@ -10,6 +10,7 @@
 
 ## DESCRIPTION
 The dashboard is an interactive version of https://www.norsar.no/borehole-geophones
+
 ![image](figures/dashboard_example.png)
 
 In the top figure, the two most relevant views are:
@@ -27,15 +28,15 @@ Automatic events correspond to automatic detections that have not been reviewed 
 The second plot shows the mean seismic energy. It is indicative of the background seismic noise level. High levels of noise may affect the detectability, but large and sudden increases can also be caused by an increase of the seismic activity.
 
 The table lists the events within the chosen time period. 
-1. Time: detection time [UTC]
-2. Class: event class
-3. Depth: 
-  (i) for HF events: depth of the geophone at which the first onset was picked.
-  (ii) for other events: depth of the geophone at which the maximum amplitude was measured.
-4. Detection: channels with a detection (NB: does not work in the deployed panel..., but not vital).
-5. N: percentage of channels with a detection. In general, the higher the percentage, the clearer the event.
-6. Amplitude: maximum amplitude measured on channels with a detection.
-7. Vup, Vdown: upwards and downwards apparent velocities for HF events only.
+1. **Time**: detection time [UTC]
+2. **Class**: event class
+3. **Depth**: 
+* for HF events: depth of the geophone at which the first onset was picked.
+* for other events: depth of the geophone at which the maximum amplitude was measured.
+4. **Detection**: channels with a detection (NB: does not work in the deployed panel..., but not vital).
+5. **N**: percentage of channels with a detection. In general, the higher the percentage, the clearer the event.
+6. **Amplitude**: maximum amplitude measured on channels with a detection.
+7. **Vup**, **Vdown**: upwards and downwards apparent velocities for HF events only.
 The table can be exported by clicking "Download Aaknes_seismic_catalogue.csv". Note that only data for the chosen time period and chosen event classes will be exported.
 
 The last figure shows data availability.
