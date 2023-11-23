@@ -37,6 +37,7 @@ The table lists the events within the chosen time period.
 5. **N**: percentage of channels with a detection. In general, the higher the percentage, the clearer the event.
 6. **Amplitude**: maximum amplitude measured on channels with a detection.
 7. **Vup**, **Vdown**: upwards and downwards apparent velocities for HF events only.
+
 The table can be exported by clicking "Download Aaknes_seismic_catalogue.csv". Note that only data for the chosen time period and chosen event classes will be exported.
 
 The last figure shows data availability.
